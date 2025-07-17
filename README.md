@@ -4,7 +4,9 @@
 
  ## Reminder
 
- This Thing is Ud( Ultra-detected ) so i suppose you learn from this of how externals work
+ This Thing is Detected so i suppose you learn from this of how externals work
+ or
+ you improve this to be Undetected( by using payson)
 
 ---------
 
@@ -14,5 +16,12 @@
 
 --------
 
-- made by: @Rzie
+## Updated: Yes
+### Version: version-225e87fdb7254f64
+
+--------
+
+## Credits
+
+- made by: @Rzie , @Dragon_Shad
 - Guide by: @KitoDoesCode
