@@ -11,7 +11,7 @@ use at your own risk
 - Simple WalkSpeed Changer
 - Uses WindowApi( ReadProcessMemory, WriteProcessMemory)
 
-  ## Detected: Yes As Fuck
+## Detected: Yes As Fuck
 
 
 ## Updated: Yes
