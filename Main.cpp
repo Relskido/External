@@ -13,7 +13,9 @@ int main()
 	
 	std::cout << "Found Process Id: " << Pid << std::endl;
 
-	HANDLE Process = OpenProcess(PROCESS_ALL_ACCESS, FALSE, Pid);
+	DWORD desiredAccess = PROCESS_VM_READ | PROCESS_VM_WRITE | PROCESS_VM_OPERATION;
+
+	HANDLE Process = OpenProcess(desiredAccess, FALSE, Pid);
 	if (!Process) {
 		std::cerr << "Failed to open process handle. Error: " << GetLastError() << "\n";
 		return -1;
